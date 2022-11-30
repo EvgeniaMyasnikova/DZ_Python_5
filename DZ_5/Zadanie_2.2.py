@@ -8,10 +8,8 @@ def input_dat(name):
         x = int(input(f"{name}, введите корректное количество конфет: "))
     return x
 
-
 def p_print(name, k, counter, value):
     print(f"Ходил {name}, он взял {k}, теперь у него {counter}. Осталось на столе {value} конфет.")
-
 
 def bot_calc(value):
     k = randint(1,29)
