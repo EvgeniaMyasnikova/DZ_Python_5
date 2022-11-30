@@ -42,3 +42,5 @@ if flag:
 else:
     print(f"Выиграл {player2}")
 
+    
+
